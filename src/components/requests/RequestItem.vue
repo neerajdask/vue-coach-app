@@ -1,9 +1,7 @@
 <template>
   <li>
     <div>
-      <a :href="emailLink">
-        {{ email }}
-      </a>
+      <a :href="emailLink">{{ email }}</a>
     </div>
     <p>{{ message }}</p>
   </li>
@@ -15,9 +13,9 @@ export default {
   computed: {
     emailLink() {
       return 'mailto:' + this.email;
-    },
-  },
-};
+    }
+  }
+}
 </script>
 
 <style scoped>
