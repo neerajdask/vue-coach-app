@@ -8,9 +8,8 @@ const store = createStore({
   modules: {
     coaches: coachesModule,
     requests: requestsModule,
-    auth: authModule,
-  },
-  
+    auth: authModule
+  }
 });
 
 export default store;
